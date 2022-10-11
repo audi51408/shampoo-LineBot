@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "arimino",
+  "private_key_id": "c952a6160f63832fa280e465ec69d06b9e10056d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDv0W9id8ajjRW\ntCL2d4TpOGIo8R4yAbU63PqUD+iOBig9tUFQzJOaMiEGg0zAndHjs+ZggkyBQ9Z4\nd59RxcEZ95/0dTrXYWTW9Dyw+bxOR2WXHoPYFZ2ack9jpha8pzVfvG9Mc8Rrz1bb\nCTrKMmOupF1nF7IH8DFAIBKYp4sLEcUk/xSHE6kA1cJp72V4QMSsWWVS3XKyK6uU\npyrzQr9CPGSswAS19bGqAAl3SAGeVw02wmyp0iKV2rn+QSqyYCE9juiZyxaTHA7i\n2aDEobIrYhOIs3qXchCvBmZ9U6RgDv6iN4s5JZDtTOpL5gAz2sSopiEt3uMhlRFB\njQ1/5469AgMBAAECggEAAzRQ3x2a1jOeE2NHL+ix93gRp0uXK8i6X5h5ePivsmTT\nE3uG8lx++BG6V6xzkl2jBMq6So8nfcrkqmaEPabylnW8G8OFhJFsFgFmiEZ2Ti5o\nsSocjL+B1ng+Ph/cacHaTlMRMVuzIJ6tdHrOCGb9xGtID3rO/Rvx+nOWn61ydGpn\n2M4TWpHGdelC3ixFUa9h8scJfhWPVtdgmXfIG0mbB09n9sDLhzOA7GvSOM8GwUBu\n3yaYRJdmK4gpzpN9YrmYDlXapWif3THCnuXDV67cKgqL21d6AN2j9oVB4JlZpVeN\nCR95N9t7oMQjOc01DUb6HNj1homsxaCT9h89nozFUwKBgQD6H1+fzAXfvWxenpDy\nO/A78Q/m1gdloU39xNwfsj19h5Bq/qLcw6qLCuDYFyGtQHHNPUvZAyQ77d4xKB1H\n94axqqpfCwU44CP9DdvrlNjW1oi8byF261yqQmkFKWsWjVErZe96vRNsenYwciZq\nuS+/67WefEyOY+FLuzLdaOtngwKBgQDIWMz0cARGIvxkmwPlRFb8Gy0dBaH4cuMk\nPoBq4m+5siMFdC/H5xIhbfy3xHhcLMY9VGK2DCwl/JPRjwAP24Fluklb4PPvKV/p\n56vDjnf2Cm2/KkYXKEp+hrsc4MJvgyeGABFCZY2DPaR/j+lMRCLpawkok0xrvE5q\nkAw4fdEcvwKBgFVypGNd+t+9wajteM0YRvDjYLBWi/5fRdqdBypY5QLebirvRMow\nmjGYDMol1N5wNrCL8T55AUbr801Ny/sLB9voVv3TMPyGLiVEN85acl2qutnNCVyr\n+WM8/s3BoZD5xDIUR+ThdSJJD9lrFc695x8ksk4rXqgCXTRXBoB3WHxrAoGAav0x\nBmBDiAjq6/b0T5z9Lsh8gQEfDASeVB6kiW++5lXA6gqv8XrubbfEu4ZKGD845kuI\nI1vAv9BwR/qrt8wq/95Jiq1I1zErLUgwq9ALM/NBxFKY94jmr0bX6YYFj3NkyeSD\nUwfUWH+0twJtPfMtCaXFUEvJBcebwMCIJiraXxUCgYEAziJADP3t1EULvTpKH1n+\niSFnLw4ktzflcrlefgzlrGjPJ5Io6bUQzy4eelfFMYwqhQ8iJz1ldvo6U1loSvaO\nYS6XgL2gAlVtYa32dXbSFs9/vlfEAg9EIuF4rFgFOFu6pz77aUw5J4XG6+zxSg3N\nZLXvpU/i6J5J6QLvPlxhyFM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "arimino-safetymargin@arimino.iam.gserviceaccount.com",
+  "client_id": "112043572557232571537",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/arimino-safetymargin%40arimino.iam.gserviceaccount.com"
+}

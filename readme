@@ -1,0 +1,22 @@
+一、Line Bot 爬蟲執行流程
+目的: 使用爬蟲主要目的為取得Webnode網頁新訂單資訊。
+1.打開Linebot_server.py
+2.啟動linebot_server ---> 跳出空白Chrome視窗
+3.在Terminal輸入Start可啟動爬蟲爬取網路訂單 
+---> Chrome視窗開始爬取Webnode網頁新訂單
+---> 若爬取到新訂單，傳送Line Bot 訊息要求使用端確認訂單
+---> 使用端確認訊息後，將訂單寫入 order 資料夾當中的check_orders.xlsx
+---> 若使用端還未確認訂單，將先站存於 uncheck_orders資料夾
+4.在Terminal輸入Pause可暫停爬蟲爬取網路訂單
+5.在Terminal輸入Resume可重啟爬蟲爬取網路訂單
+6.在Terminal輸入Stop可關閉爬蟲爬取網路訂單
+7.刪除Terminal關閉linebot_server
+
+二、開發端Line Bot功能建立
+目的: 主要使用Line Bot API 以及 Richmenu 建立註冊、查詢訂單、刪除訂單等功能。
+1. 註冊: 詢問使用端姓名、電話、地址，並將註冊資料寫入registered_data.json
+2. 查詢訂單: 使用pd.read_excel('orders/check_orders.xlsx')讀取order資料夾當中的check_orders.xlsx
+---> 使用 pd.to_datetime(datetime.date.today()-datetime.timedelta(days=3))讀取三天內訂單資訊
+---> 若使用端還未確認訂單，先將尚未確認暫存於 uncheck_orders資料夾
+3. 刪除訂單: 使用端輸入欲刪除訂單編號，比對check_orders.xlsx當中的訂單資訊
+---> 若使用端欲刪除訂單編號在三日內可取消訂單編號當中，則刪除成功
